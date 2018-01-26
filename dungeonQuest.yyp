@@ -122,7 +122,7 @@
             "Key": "32d281b3-c736-446c-b7ce-1ccc30d1cf0e",
             "Value": {
                 "id": "50bca1a6-9c05-45eb-b776-b97ac8e20d7d",
-                "resourcePath": "objects\\o_button_boy\\o_button_boy.yy",
+                "resourcePath": "objects\\o_button\\o_button.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -140,14 +140,6 @@
                 "id": "7cf22907-eee6-4a88-8883-33914ab220c5",
                 "resourcePath": "sprites\\s_raven\\s_raven.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "415f3a96-8172-44c9-965c-232b3ce7111f",
-            "Value": {
-                "id": "8f9ee6f3-79d5-4132-83e7-0371723453ab",
-                "resourcePath": "objects\\o_button_raven\\o_button_raven.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -364,14 +356,6 @@
                 "id": "87fea769-9830-445f-8528-022f2c13fb12",
                 "resourcePath": "views\\e04cb39b-1a0b-4fb1-90ec-724e649edab6.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "e56ec284-53bf-4269-bbd9-4f147fc9fef9",
-            "Value": {
-                "id": "20318947-1fdb-424e-a405-df3e19a48b3b",
-                "resourcePath": "objects\\o_button_ghost\\o_button_ghost.yy",
-                "resourceType": "GMObject"
             }
         },
         {
