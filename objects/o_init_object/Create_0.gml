@@ -6,9 +6,9 @@ default_player_type = 1;
 #macro player_type g.player_type
 
 player_types = 0; // array initialization
-player_types[0] = o_player_child;
-player_types[1] = o_player_raven;
-player_types[2] = o_player_ghost;
+player_types[0] = o_boy;
+player_types[1] = o_raven;
+player_types[2] = o_ghost;
 player_type = default_player_type;
 
 
