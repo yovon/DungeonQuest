@@ -48,7 +48,15 @@ if (place_meeting(self.x, self.y + delta_y, o_wall)){
 		self.y += sign(delta_y);
 	}
 	delta_y = 0;	
+	
 }
+
+
+//key interaction
+if (place_meeting(self.x, self.y, o_key)){
+	create_text_box(other.key_content);	
+}
+
 
 self.x += delta_x;
 self.y += delta_y;

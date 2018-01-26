@@ -2,6 +2,13 @@ global.MODE_BOY = 0;
 global.MODE_RAVEN = 1;
 global.MODE_GHOST = 2;
 
+global.player_types = 0; // array initialization
+global.player_types[global.MODE_BOY] = o_boy;
+global.player_types[global.MODE_RAVEN] = o_raven;
+global.player_types[global.MODE_GHOST] = o_ghost;
+global.player_type = global.MODE_BOY;
+
+
 button_boy = instance_create_depth(200,350,0,o_button);
 button_boy.sprite_index = s_standing_boy;
 with(button_boy){
