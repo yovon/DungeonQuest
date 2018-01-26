@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "o_raven",
     "eventList": [
-        
+        {
+            "id": "d93c9fdc-2543-4cad-8b9a-855ea37f40f1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "5ca9d830-79f4-4970-ab7d-9d6900199a3e"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
