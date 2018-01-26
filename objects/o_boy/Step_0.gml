@@ -50,5 +50,14 @@ if (place_meeting(self.x, self.y + delta_y, o_wall)){
 	delta_y = 0;	
 }
 
+if(delta_x == 0 && delta_y == 0)
+{
+	self.sprite_index = s_standing_boy;
+}
+else
+{
+	self.sprite_index = s_walking_boy;
+}
+
 self.x += delta_x;
 self.y += delta_y;
