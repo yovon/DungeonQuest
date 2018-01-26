@@ -50,6 +50,22 @@ if (place_meeting(self.x, self.y + delta_y, o_wall)){
 	delta_y = 0;	
 }
 
+if (place_meeting(self.x + delta_x, self.y, o_door)){
+	while(!place_meeting(self.x + sign(delta_x), self.y, o_door))
+	{
+		self.x += sign(delta_x);
+	}
+	delta_x = 0;	
+}
+
+if (place_meeting(self.x, self.y + delta_y, o_door)){
+	while(!place_meeting(self.x, self.y + sign(delta_y), o_door))
+	{
+		self.y += sign(delta_y);
+	}
+	delta_y = 0;	
+}
+
 if(delta_x == 0 && delta_y == 0)
 {
 	self.sprite_index = s_standing_boy;

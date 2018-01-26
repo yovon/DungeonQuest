@@ -52,10 +52,22 @@ if (place_meeting(self.x, self.y + delta_y, o_wall)){
 }
 
 
-//key interaction
-if (place_meeting(self.x, self.y, o_key)){
-	create_text_box(other.key_content);	
+if (place_meeting(self.x + delta_x, self.y, o_door)){
+	while(!place_meeting(self.x + sign(delta_x), self.y, o_door))
+	{
+		self.x += sign(delta_x);
+	}
+	delta_x = 0;	
 }
+
+if (place_meeting(self.x, self.y + delta_y, o_door)){
+	while(!place_meeting(self.x, self.y + sign(delta_y), o_door))
+	{
+		self.y += sign(delta_y);
+	}
+	delta_y = 0;	
+}
+
 
 
 self.x += delta_x;

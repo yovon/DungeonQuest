@@ -1,33 +1,33 @@
 {
-    "id": "39d05314-a250-4dbd-b47b-fcb7dbb11a5e",
+    "id": "d7d0fa3f-673d-47f0-acaf-553ed2f3c714",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_key",
+    "name": "o_chest",
     "eventList": [
         {
-            "id": "8a0288a6-e5a7-4e47-a32d-ac716cd9687b",
+            "id": "b1ed488e-38b1-46b9-8378-1d3fa1f478dc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "39d05314-a250-4dbd-b47b-fcb7dbb11a5e"
+            "m_owner": "d7d0fa3f-673d-47f0-acaf-553ed2f3c714"
         },
         {
-            "id": "e3979632-14e0-4f3f-aeb6-849469af7293",
+            "id": "4f2a9518-fac5-48d5-9771-ebae22d84b78",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "438b0876-dee2-4f8f-b802-58f7d6c1ac44",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "39d05314-a250-4dbd-b47b-fcb7dbb11a5e"
+            "eventtype": 4,
+            "m_owner": "d7d0fa3f-673d-47f0-acaf-553ed2f3c714"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "1c8e45c9-9e18-4cbb-8ee6-bea8e629d779",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -43,7 +43,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "7cee5c37-79ec-42ef-b443-fbee16042bc5",
+            "id": "f027a212-77d6-47d0-b94f-19f211c9b18c",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -53,11 +53,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "none",
-            "varName": "key_content",
+            "varName": "chest_content",
             "varType": 2
         }
     ],
     "solid": false,
-    "spriteId": "3c5ea972-f196-43b6-a20d-e6b2edd612f2",
+    "spriteId": "933e3ad0-4ffb-4b1a-a7b1-516689a4a7c2",
     "visible": true
 }

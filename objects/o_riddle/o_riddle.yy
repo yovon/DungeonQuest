@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "o_riddle",
     "eventList": [
-        
+        {
+            "id": "b30c6b27-9730-440a-892b-22b40b91b20d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "cb72f439-87e9-4eee-9a6d-7940890abb32"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -22,7 +31,78 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "010c9e6f-a17f-4e6a-950d-ab36e6e450f3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": " ",
+            "varName": "sentence_1",
+            "varType": 2
+        },
+        {
+            "id": "617071d5-b9af-4623-8b26-413edc149366",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": " ",
+            "varName": "sentence_2",
+            "varType": 2
+        },
+        {
+            "id": "f22b5e8f-c436-4c92-b5ab-d188c6f7ac26",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": " ",
+            "varName": "sentence_3",
+            "varType": 2
+        },
+        {
+            "id": "d85c5852-ccf1-4747-803f-a28f7967e6c2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": " ",
+            "varName": "sentence_4",
+            "varType": 2
+        },
+        {
+            "id": "4735ebe9-c71e-447f-a477-916ba4389ff4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": " ",
+            "varName": "sentence_5",
+            "varType": 2
+        }
+    ],
     "solid": false,
     "spriteId": "b75e1c30-f6fe-48e6-8797-b16b16adefa4",
     "visible": true
