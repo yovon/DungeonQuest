@@ -52,3 +52,8 @@ if (place_meeting(self.x, self.y + delta_y, o_ghost_wall)){
 
 self.x += delta_x;
 self.y += delta_y;
+
+if(audio_is_paused(m_Main_Theme) && audio_is_playing(m_riddle))
+{
+	audio_resume_sound(m_Main_Theme);
+}

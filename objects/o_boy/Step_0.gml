@@ -77,3 +77,8 @@ else
 
 self.x += delta_x;
 self.y += delta_y;
+
+if(audio_is_paused(m_Main_Theme))
+{
+	audio_resume_sound(m_Main_Theme);
+}

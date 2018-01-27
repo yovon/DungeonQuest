@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "fea3b923-da2b-4d6d-ad7a-4d5dccec1de5",
+            "Value": {
+                "id": "5cc4e633-e3f2-4bec-b8e5-e53b709e13f4",
+                "resourcePath": "sounds\\m_riddle\\m_riddle.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "ff3456d6-2713-42bb-b24f-308279819c9c",
             "Value": {
                 "id": "daa79688-3021-43ef-ace6-0bee1f74d2a7",
