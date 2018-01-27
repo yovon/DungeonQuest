@@ -1,0 +1,32 @@
+{
+    "id": "cbb6d2b1-eaf4-47ae-b03a-80ef2d4f422b",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "cbb6d2b1-eaf4-47ae-b03a-80ef2d4f422b",
+    "children": [
+        "80b340c8-8d0b-4569-b497-5151e406076b",
+        "fc5f5fb7-23bc-4441-b51f-b3cb1b879ffd",
+        "61d9df6e-2540-4d33-bf98-7814c2db6c3b",
+        "ac607279-e203-41e1-aa6b-417879c158e5",
+        "dc2356d8-55b1-4661-8482-46674d0cc748",
+        "b2a62e03-cd23-47dc-ba4d-b844104d3887",
+        "968de377-491b-4efb-9256-36c3dc576796",
+        "cbde9cc9-c008-45c3-adda-7ed59b91ede5",
+        "06cc2398-68d2-4e4d-86db-92d6e816f7dc",
+        "2516be16-c47b-4251-9318-db7e1ed4dda0",
+        "95078c30-1182-4435-9669-2a95d354881b",
+        "b2edd0f9-a4a3-4213-932b-9c88906fc92c",
+        "88a66bb8-6186-48ac-a9c2-300be662ba53",
+        "2b09548d-d473-4257-9d24-a1919c758a6f",
+        "863759ac-5750-4c48-b848-3bb82bd5fe5d",
+        "f75ca332-6c44-400c-b0e6-ef4bb953c17b",
+        "6efff132-84a9-4e48-a8a8-74152ea203ad",
+        "d5217d72-fe3d-4323-adfc-cf82a899be88",
+        "01ce0782-45fc-4711-abb0-a0687ac2aa10",
+        "8d3aa2e0-86d0-4009-9c6e-13853ba7bfd9"
+    ],
+    "filterType": "GMSound",
+    "folderName": "sfx",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

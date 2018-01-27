@@ -31,10 +31,13 @@ if (lefttouch || righttouch || uppertouch || downtouch)
 		if(s == self.key_word)
 		{
 			create_text_box("You entered: "+s, "That is the correct password!");
+			audio_play_sound(choose(door_sound_1, door_sound_2, door_sound_3, door_sound_4, door_sound_5), 10, false);
 			if(self.end_door)
 			{
 				if(global.player_type == global.MODE_BOY)
 				{
+					audio_stop_all();
+					audio_play_sound(choose(door_sound_1, door_sound_2, door_sound_3, door_sound_4, door_sound_5), 10, false);
 					room_goto_next();
 				}
 				else
@@ -50,6 +53,7 @@ if (lefttouch || righttouch || uppertouch || downtouch)
 		else
 		{
 			create_text_box("You entered: "+s, "That is wrong, please try again and check your upper letters.");
+			audio_play_sound(door_lock, 10, false);
 		}
 	}
 }

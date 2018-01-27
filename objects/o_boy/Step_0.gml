@@ -69,10 +69,16 @@ if (place_meeting(self.x, self.y + delta_y, o_door)){
 if(delta_x == 0 && delta_y == 0)
 {
 	self.sprite_index = s_standing_boy;
+	audio_stop_sound(boy_walk)
+
 }
 else
 {
 	self.sprite_index = s_walking_boy;
+
+	if(!audio_is_playing(boy_walk)) {
+		audio_play_sound(boy_walk, 10, true);
+	}
 }
 
 self.x += delta_x;
@@ -81,4 +87,10 @@ self.y += delta_y;
 if(audio_is_paused(m_Main_Theme))
 {
 	audio_resume_sound(m_Main_Theme);
+}
+
+if (random(1000) < 1)
+{
+	sound = choose(boy_a, boy_b, boy_c, boy_d, wind, mutter);
+	audio_play_sound(sound, 10, false);
 }

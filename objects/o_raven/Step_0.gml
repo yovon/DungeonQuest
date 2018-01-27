@@ -77,3 +77,9 @@ if(audio_is_paused(m_Main_Theme))
 {
 	audio_resume_sound(m_Main_Theme);
 }
+
+if (random(1000) < 1)
+{
+	sound = choose(crow_a, crow_b, crow_c, crow_d, crow_e, wind, mutter);
+	audio_play_sound(sound, 10, false);
+}

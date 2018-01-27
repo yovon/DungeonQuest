@@ -57,3 +57,9 @@ if(audio_is_paused(m_Main_Theme) && audio_is_playing(m_riddle))
 {
 	audio_resume_sound(m_Main_Theme);
 }
+
+if (random(1000) < 1)
+{
+	sound = choose(ghost_a, ghost_b, wind, mutter);
+	audio_play_sound(sound, 10, false);
+}
