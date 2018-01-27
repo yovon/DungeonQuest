@@ -429,6 +429,14 @@
                 "resourcePath": "paths\\path0\\path0.yy",
                 "resourceType": "GMPath"
             }
+        },
+        {
+            "Key": "ff3456d6-2713-42bb-b24f-308279819c9c",
+            "Value": {
+                "id": "daa79688-3021-43ef-ace6-0bee1f74d2a7",
+                "resourcePath": "sounds\\m_Main_Theme\\m_Main_Theme.yy",
+                "resourceType": "GMSound"
+            }
         }
     ],
     "script_order": [

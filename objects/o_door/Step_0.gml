@@ -27,10 +27,10 @@ if (lefttouch || righttouch || uppertouch || downtouch)
 	if(keyboard_key == vk_space)
 	{
 		s = get_string("Enter the KeyWord","");
-		create_text_box("You entered: "+s);
+
 		if(s == self.key_word)
 		{
-			create_text_box("That is the correct password!");
+			create_text_box("You entered: "+s, "That is the correct password!");
 			if(self.end_door)
 			{
 				if(global.player_type == global.MODE_BOY)
@@ -49,7 +49,7 @@ if (lefttouch || righttouch || uppertouch || downtouch)
 		}
 		else
 		{
-			create_text_box("That is the wrong. Please try again. Check upper and lower letters.");
+			create_text_box("You entered: "+s, "That is wrong, please try again and check your upper letters.");
 		}
 	}
 }
